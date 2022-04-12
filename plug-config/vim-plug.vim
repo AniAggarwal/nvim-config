@@ -45,6 +45,9 @@ Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
 Plug 'iamcco/coc-vimlsp', {'do': 'yarn install --frozen-lockfile'}
 Plug 'josa42/coc-sh', {'do': 'yarn install --frozen-lockfile'}
 
+" Refactoring for Python
+Plug 'python-rope/ropevim'
+
 Plug 'dstein64/vim-startuptime' " Startuptime, time how long it takes to start up
 
 Plug 'ryanoasis/vim-devicons' " Devicons, icons for files. NOTE: must be loaded LAST

@@ -15,6 +15,9 @@ set smarttab
 set splitbelow
 set splitright
 
+" Use filetype plugins
+filetype plugin on
+
 " Show signs next to lines
 set signcolumn=yes
 " Add line numbers

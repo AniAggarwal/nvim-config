@@ -65,15 +65,6 @@ function CopyCondaEnvName()
     let @c = "conda activate ". $CONDA_DEFAULT_ENV
 endfunction
 
-" function SyncNotebook(filename = expand("%"))
-"     " If the arugment ends in .sync.py, add it
-"     if stridx(a:filename, '.sync.py') != -1
-"         execute "!/home/ani/miniconda3/envs/jupyter/bin/python -m jupyter_ascending.requests.sync --filename ". a:filename
-"     else
-"         execute "!/home/ani/miniconda3/envs/jupyter/bin/python -m jupyter_ascending.requests.sync --filename ". a:filename. ".sync.py"
-"     endif
-" endfunction
-" command -nargs=? SyncNotebook call SyncNotebook(<f-args>)
 
 " Remap execution of jupyter notebook cells in nvim
 nmap <leader>jx <Plug>JupyterExecute

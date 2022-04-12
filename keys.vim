@@ -19,6 +19,11 @@ nnoremap z- :set spell!<CR>
 " Save files faster
 nnoremap <leader>w :w<CR>
 
+" Mappings for Fugitive
+nmap <leader>gs :G<CR>
+nmap <leader>gh :diffget //3<CR>
+nmap <leader>gl :diffget //2<CR>
+
 " Use alt + hjkl to resize windows
 nnoremap <M-j> :resize -2<CR>
 nnoremap <M-k> :resize +2<CR>

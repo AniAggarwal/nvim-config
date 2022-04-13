@@ -20,6 +20,7 @@ Plug 'justinmk/vim-sneak' " Sneak, fast movement
 Plug 'unblevable/quick-scope' " QuickScope, quick movement within a line
 Plug 'mhinz/vim-startify' " Startify, project management
 Plug 'folke/which-key.nvim' " nvim whichkey, shows keybinds
+Plug 'knubie/vim-kitty-navigator', {'do': 'cp ./*.py ~/.config/kitty/'} " KittyNavigator, Vim keybinds for movement in Kitty terminal
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " FZF, fuzzy finder for quick searching
 Plug 'junegunn/fzf.vim' " More FZF
@@ -44,9 +45,6 @@ Plug 'fannheyward/coc-pyright', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
 Plug 'iamcco/coc-vimlsp', {'do': 'yarn install --frozen-lockfile'}
 Plug 'josa42/coc-sh', {'do': 'yarn install --frozen-lockfile'}
-
-" Refactoring for Python
-Plug 'python-rope/ropevim'
 
 Plug 'dstein64/vim-startuptime' " Startuptime, time how long it takes to start up
 

@@ -49,8 +49,8 @@ nnoremap <C-t> :NERDTreeFocus<CR>
 let NERDTreeMapOpenSplit='s'
 let NERDTreeMapOpenVSplit='v'
 
-" Open code outline using vista
-nnoremap <F8> :Vista<CR>
+" Open code outline using CocOutline
+nnoremap <F8> :CocOutline<CR>
 
 " Comment current line out and paste it below
 nnoremap gcp yy <bar> :Commentary<CR> <bar> p
